@@ -25,7 +25,7 @@ function Navbar() {
       {/* Drawer for Large Screens */}
       <div >
         <ul
-          className={`fixed top-0 right-0 h-full bg-[#121618] w-[300px] transition-transform duration-300 transform ${
+          className={`fixed top-0 right-0 h-full z-10  bg-[#121618] w-[300px] transition-transform duration-300 transform ${
             isDrawerOpen ? 'translate-x-0' : 'translate-x-full'
           } lg:static lg:translate-x-0 lg:flex lg:w-[400px] lg:justify-between`}
         >
@@ -37,7 +37,7 @@ function Navbar() {
 
         {/* Close Button inside Drawer */}
         {isDrawerOpen && (
-          <div className="absolute top-4 right-4">
+          <div className="absolute top-4 right-4 z-10">
             <IoMdClose size={24} className="text-white" onClick={toggleDrawer} />
           </div>
         )}
