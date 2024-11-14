@@ -18,7 +18,7 @@ function Menu() {
 
 
                <div className='flex justify-center py-8 sm:py-16'>   
-                <img src='/BRUNCHCOCKTAILS.SVG' className='w-64 sm:w-auto'/>
+                <img src='/menu-image.svg' className='w-64 sm:w-auto'/>
                </div>
 
               <div className='flex flex-col xl:flex-row'>
