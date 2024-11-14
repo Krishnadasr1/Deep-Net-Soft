@@ -8,7 +8,7 @@ function Hero() {
 
         <p className="text-[#bbbbbb] text-[16px] sm:text-[18px] text-center ">
           Please take a look at our menu featuring food, drinks, and brunch. If
-          you'd like to place an order, use the "Order Online" button located
+          you&apos;d like to place an order, use the &quot;Order&quot; Online button located
           below the menu.
         </p>
       </div>
